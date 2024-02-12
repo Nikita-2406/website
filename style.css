@@ -1,0 +1,133 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+.main {
+  background-image: url(zavri.png);
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 1080p;
+  background-size: contain;
+}
+
+.head { 
+  position: absolute;
+  top: 27px;
+  left: 448px;
+  width: 1024px;
+  height: 376px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  border: solid rgba(0, 0, 0, 0.5) 3px;
+
+}
+
+.line {
+  width: 3px;
+  height: 376px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  /* top: 30px; */
+  left: 512px;
+}
+
+.all_text_love {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 28px;
+  color: white;
+  position: relative;
+  top: 19px;
+  left: 85px;
+}
+
+.name {
+  font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    position: relative;
+    left: 85px;
+    top:15px;
+    color: white;
+}
+
+.link {
+  font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #B9B9B9; 
+    position: relative;
+    left: 85px;
+    top: 15px;  
+}
+
+.main_log {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 28px;
+  position: relative;
+  top: -280px;
+  left: 210px;
+}
+
+.log {
+  position: relative;
+  left: 512px;
+}
+
+.text_log {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  position: relative;
+  top: -265px;
+  left: 50px;
+  font-size: 18px;
+}
+
+.inp {
+  border:none;
+  background:none;
+  outline:none;
+  padding:0;
+  position: relative;
+  top: -260px;
+  left: 50px;
+  width: 406px;
+  height: 46px;
+  background-color: #D9D9D9;
+  border-radius: 46px;
+}
+
+.text_2 {
+  margin-top: 40px;
+}
+
+::placeholder {
+  color: #939393;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+.sing_up {
+  font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #363636;
+    position: relative;
+    left: 187px;
+    top: -200px;
+}
